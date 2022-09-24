@@ -13,7 +13,7 @@ npm i react-events-hook
 ### Configuration
 
 ```ts
-import { Event } from 'react-events-hook"
+import { Event } from 'react-events-hook';
 
 const ALERT = new Event<{ message: string }>();
 ```
