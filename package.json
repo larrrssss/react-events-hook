@@ -1,0 +1,46 @@
+{
+  "name": "react-events-hook",
+  "version": "0.0.1",
+  "description": "Emit and listen to events in a React application",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/ --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrrssss/react-events-hook.git"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "react",
+    "events",
+    "hook",
+    "global"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrrssss/react-events-hook/issues"
+  },
+  "homepage": "https://github.com/larrrssss/react-events-hook#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
