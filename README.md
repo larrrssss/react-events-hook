@@ -44,7 +44,7 @@ import { useEvent } from 'react-events-hook';
 
 export const App: React.FC = (props) => {
 
-  useEvent(ALERT, () => {
+  useEvent(ALERT, (data) => {
     // ...
   });
 
