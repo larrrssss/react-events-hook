@@ -1,6 +1,6 @@
 {
   "name": "react-events-hook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Emit and listen to events in a React application",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
