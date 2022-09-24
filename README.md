@@ -43,12 +43,12 @@ import React from 'react';
 import { useEvent } from 'react-events-hook';
 
 export const App: React.FC = (props) => {
-	
-	useEvent(ALERT, () => {
-		// ...
-	});
 
-	return (
+  useEvent(ALERT, () => {
+    // ...
+  });
+
+  return (
     <div>
       <h1>Hello World</h1>
     </div>
